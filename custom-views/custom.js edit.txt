@@ -1,0 +1,6 @@
+// Add John's Inventory menu item to Listings menu
+addMenuItem({
+menu: 'listing',
+name: 'John Inventory',
+url: appUrl + '/show/custom/johnsinventory'
+})
