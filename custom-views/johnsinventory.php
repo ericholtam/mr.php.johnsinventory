@@ -87,11 +87,11 @@ new department_model;
 				var name=$('td:eq(1)', nRow).html();
 				if(name == ''){name = "No Name"};
 				var sn=$('td:eq(8)', nRow).html();
-				var link = get_client_detail_link(name, sn, '<?php echo url(); ?>/');
+				var link = mr.getClientDetailLink(name, sn, '<?php echo url(); ?>/');
 				$('td:eq(1)', nRow).html(link);
 
 				// Format OS Version
-				var osvers = integer_to_version($('td:eq(4)', nRow).html());
+				var osvers = mr.integerToVersion($('td:eq(4)', nRow).html());
 				$('td:eq(4)', nRow).html(osvers);
 
 				// Format RAM
@@ -110,3 +110,4 @@ new department_model;
 </script>
 
 <?php $this->view('partials/foot'); ?>
+
