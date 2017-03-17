@@ -2,7 +2,7 @@
 
 return array(
     'listings' => array(
-        'johnsinventory' => array('view' => 'johnsinventory', 'i18n' => 'johnsinventory.johnsinventory',),
+        'johnslist' => array('view' => 'johnslist', 'i18n' => 'johnslist.johnslist',),
     ),
 );
 
