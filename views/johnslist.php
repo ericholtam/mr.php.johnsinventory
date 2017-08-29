@@ -27,9 +27,9 @@ new department_model;
 			<th data-i18n="listing.machine_desc" data-colname='machine.machine_desc'>Human Name</th>
 			<th data-colname='machine.os_version'>OS</th>
 			<th data-i18n="listing.physical_memory" data-colname='machine.physical_memory'>RAM</th>
-			<th data-i18n="disk_report.media_type" data-colname='diskreport.VolumeType'>Media Type</th>
 			<th data-i18n="listing.department.department" data-colname='department.department'>Department</th>
 			<th data-colname='reportdata.timestamp'>Check-in</th>
+			<th data-i18n="disk_report.media_type" data-colname='diskreport.VolumeType'>Media Type</th>
 			<th data-i18n="serial" data-colname='reportdata.serial_number'>Serial</th>
 		  </tr>
 		</thead>
