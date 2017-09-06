@@ -15,7 +15,7 @@ new department_model;
 
 	<div class="col-lg-12">
 
-	  <h3>John's report <span id="total-count" class='label label-primary'>…</span></h3>
+	  <h3>Replacement Plan <span id="total-count" class='label label-primary'>…</span></h3>
 
 	  <table class="table table-striped table-condensed table-bordered">
 
@@ -30,6 +30,8 @@ new department_model;
 			<th data-i18n="listing.department.department" data-colname='department.department'>Department</th>
 			<th data-colname='reportdata.timestamp'>Check-in</th>
 			<th data-i18n="serial" data-colname='reportdata.serial_number'>Serial</th>
+			<th data-i18n="disk_report.media_type" data-colname='diskreport.VolumeType'>Media Type</th>
+		    <th data-i18n="disk_report.mountpoint" data-colname='diskreport.MountPoint'>Mount Point</th>
 		  </tr>
 		</thead>
 
