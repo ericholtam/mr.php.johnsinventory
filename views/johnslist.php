@@ -31,6 +31,7 @@ new department_model;
 			<th data-colname='reportdata.timestamp'>Check-in</th>
 			<th data-i18n="serial" data-colname='reportdata.serial_number'>Serial</th>
 			<th data-i18n="disk_report.media_type" data-colname='diskreport.VolumeType'>Media Type</th>
+		    <th data-i18n="disk_report.mountpoint" data-colname='diskreport.MountPoint'>Mount Point</th>
 		  </tr>
 		</thead>
 
