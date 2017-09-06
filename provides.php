@@ -2,6 +2,6 @@
 
 return array(
     'listings' => array(
-        'replacementplan' => array('view' => 'replacementplan', 'i18n' => 'replacementplan.replacementplan'),
+        'johnsinventory' => array('view' => 'johnsinventory', 'i18n' => 'johnsinventory.johnsinventory'),
     ),
 );
