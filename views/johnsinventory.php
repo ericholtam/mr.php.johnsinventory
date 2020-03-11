@@ -15,7 +15,7 @@ new department_model;
 
 	<div class="col-lg-12">
 
-	  <h3>Replacement Plan <span id="total-count" class='label label-primary'>…</span></h3>
+	  <h3>John's Inventory <span id="total-count" class='label label-primary'>…</span></h3>
 
 	  <table class="table table-striped table-condensed table-bordered">
 
