@@ -21,16 +21,18 @@ new department_model;
 
 		<thead>
 		  <tr>
-			<th data-i18n="listing.username" data-colname='reportdata.console_user'>Username</th>
-		  	<th data-i18n="listing.computername" data-colname='machine.computer_name'>Machine Name</th>
-			<th data-i18n="listing.machine_model" data-colname='machine.machine_model'>Gestalt</th>
-			<th data-i18n="listing.machine_desc" data-colname='machine.machine_desc'>Human Name</th>
-			<th data-colname='machine.os_version'>OS</th>
-			<th data-i18n="listing.physical_memory" data-colname='machine.physical_memory'>RAM</th>
-			<th data-i18n="listing.department.department" data-colname='department.department'>Department</th>
-			<th data-colname='reportdata.timestamp'>Check-in</th>
-			<th data-i18n="serial" data-colname='reportdata.serial_number'>Serial</th>
-		  </tr>
+            <th data-colname='reportdata.console_user'>Current Username</th>
+            <th data-i18n="listing.computername" data-colname='machine.computer_name'>Machine Name</th>
+            <th data-i18n="listing.machine_model" data-colname='machine.machine_model'>Gestalt</th>
+            <th data-i18n="listing.machine_desc" data-colname='machine.machine_desc'>Human Name</th>
+            <th data-colname='machine.os_version'>OS</th>
+            <th data-i18n="listing.physical_memory" data-colname='machine.physical_memory'>RAM</th>
+            <th data-i18n="listing.department.department" data-colname='department.department'>Department</th>
+            <th data-colname='reportdata.timestamp'>Check-in</th>
+            <th data-i18n="serial" data-colname='reportdata.serial_number'>Serial</th>
+            <th data-colname='reportdata.long_username'>Last Full Name</th>
+            <th data-colname='reportdata.uid'>Last UID</th>
+ 		  </tr>
 		</thead>
 
 		<tbody>
